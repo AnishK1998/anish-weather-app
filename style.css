@@ -5,19 +5,17 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(22, 22, 22, 0.6),
-      rgba(22, 22, 22, 0.6)
-    ),
-    url("https://image.winudf.com/v2/image1/Y29tLnZtLmFuZHJvaWQubGl2ZXdlYXRoZXIuYWVnbDIubGl0ZV9zY3JlZW5fN18xNTY3MDAyNjE3XzA5OQ/screen-7.jpg?fakeurl=1&type=.jpg");
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 100vh;
-  color: white;
+    background-image: url("https://image.winudf.com/v2/image1/Y29tLnZtLmFuZHJvaWQubGl2ZXdlYXRoZXIuYWVnbDIubGl0ZV9zY3JlZW5fN18xNTY3MDAyNjE3XzA5OQ/screen-7.jpg?fakeurl=1&type=.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    color: white;
 }
 
 input {
